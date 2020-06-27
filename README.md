@@ -9,11 +9,20 @@ Also, othes factors like round trip time, a protocol’s handshake latency, time
 
 <!--more-->
 
-**Code** I like build the stuff by writing maintainable code.
+This blog post shows how it is applicable to cache response using Spring Cloud Gateway. For this you need to create two spring boot application:
+`api-gateway` and `order-service`.
 
-This blog post shows the available options to create template.
+## Create Order Microservice
 
-## Create Template
+
+## Create API Gateway
+
+
+## Routing 
+
+
+## Caching
+
 
 We are done, Thanks for reading! [Github](https://github.com/BhuwanUpadhyay/blog-code-example-template)
 
