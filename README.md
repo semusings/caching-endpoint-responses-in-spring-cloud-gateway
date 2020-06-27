@@ -15,13 +15,11 @@ This blog post shows how it is applicable to cache response using Spring Cloud G
 ## Initialize Projects
 
 Run the following to create api gateway spring boot application:
-
 ```bash
 curl https://start.spring.io/starter.tgz -d dependencies=actuator,cloud-gateway -d language=java -d platformVersion=2.3.1.RELEASE -d javaVersion=14 -d baseDir=api-gateway | tar -xzvf -
 ```
 
 Run the following to create order microservice spring boot application:
-
 ```bash
 curl https://start.spring.io/starter.tgz -d dependencies=actuator,webflux -d language=java -d platformVersion=2.3.1.RELEASE -d javaVersion=14 -d baseDir=order-service | tar -xzvf -
 ```
