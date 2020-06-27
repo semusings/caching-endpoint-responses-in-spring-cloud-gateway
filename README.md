@@ -84,10 +84,6 @@ http :8080/orders
 
 # Output
 HTTP/1.1 200 OK
-Content-Length: 2
-Content-Type: application/json
-
-[]
 ```
 
 ## Implement Caching in API Gateway
