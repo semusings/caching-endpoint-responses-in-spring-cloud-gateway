@@ -63,6 +63,24 @@ server.port=8081
 
 ## Add Routing in API Gateway
 
+Rename `application.properties` in api gateway to `application.yaml` and add the following text:
+
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: order-service
+          uri: http://localhost:8081
+          predicates:
+            - Path=/orders
+``` 
+
+Let's test can you access orders api from api gateway. [Install httpie](https://httpie.org/)
+
+```bash
+http :8080/orders
+```
 
 ## Implement Caching in API Gateway
 
