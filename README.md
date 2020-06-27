@@ -76,10 +76,16 @@ spring:
             - Path=/orders
 ``` 
 
-Let's test can you access orders api from api gateway. [Install httpie](https://httpie.org/)
+Let's test can you access orders api from api gateway. You need to run order service and api gateway spring boot application. Install [httpie](https://httpie.org/) command line tool.  
 
 ```bash
 http :8080/orders
+
+HTTP/1.1 200 OK
+Content-Length: 2
+Content-Type: application/json
+
+[]
 ```
 
 ## Implement Caching in API Gateway
