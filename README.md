@@ -9,19 +9,15 @@ Also, othes factors like round trip time, a protocol’s handshake latency, time
 
 <!--more-->
 
-This blog post shows how it is applicable to cache response using Spring Cloud Gateway. For this you need to create two spring boot application:
+This blog post shows how it is applicable to cache response using Spring Cloud Gateway. For this you need to create two spring boot applications:
 `api-gateway` and `order-service`.
 
-## Create Order Microservice
+## Initialize Projects
+
+## Add Routing in API Gateway
 
 
-## Create API Gateway
-
-
-## Routing 
-
-
-## Caching
+## Implement Caching in API Gateway
 
 
 We are done, Thanks for reading! [Github](https://github.com/BhuwanUpadhyay/blog-code-example-template)
