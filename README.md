@@ -26,6 +26,8 @@ curl https://start.spring.io/starter.tgz -d dependencies=actuator,webflux -d lan
 
 ## Add Order APIs
 
+Create `OrderController.java` in order service and add the following text:
+
 ```
 record Order(@JsonProperty("item")String item,
              @JsonProperty("quantity")Integer quantity) {
