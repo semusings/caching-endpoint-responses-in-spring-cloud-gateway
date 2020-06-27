@@ -79,8 +79,10 @@ spring:
 Let's test can you access orders api from api gateway. You need to run order service and api gateway spring boot application. Install [httpie](https://httpie.org/) command line tool.  
 
 ```bash
+# Run the following command
 http :8080/orders
 
+# Output
 HTTP/1.1 200 OK
 Content-Length: 2
 Content-Type: application/json
