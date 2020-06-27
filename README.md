@@ -56,6 +56,10 @@ public class OrderController {
 }
 ```
 
+Change server port for order service as `8081` from `application.properties`.
+```properties
+server.port=8081
+```
 
 ## Add Routing in API Gateway
 
